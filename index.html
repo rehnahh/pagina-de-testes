@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Página de Testes</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">Logo</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#onde-estamos">Onde Estamos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="painel">
+            <div class="info">
+                <h2>Batman: O Cavaleiro das Trevas Ressurge</h2><br>
+
+                <h3>Sinopse</h3>
+                <p>Após ser culpado pela morte de Harvey Dent e passar de herói a vilão, Batman desaparece. As coisas
+                    mudam com a chegada de uma ladra misteriosa, a Mulher-Gato, e Bane, um terrorista mascarado, que
+                    fazem Batman abandonar seu exílio forçado.</p>
+
+                <ul>
+                    <li><span class="label">Diretor: <span class="nome">Christopher Nolan</span></span></li>
+                    <li>
+
+                    <li><span class="label">Roteiro: <span class="nome">Christopher Nolan, Jonathan Nolan</span></span>
+                    </li>
+                    <li>
+
+                    <li><span class="label">Elenco: <span class="nome">Christian Bale, Gary Oldman, Tom Hardy, Anne
+                                Hathaway</span></span></li>
+                    <li>
+                </ul><br>
+            </div>
+
+            <div class="image">
+                <picture>
+                    <source srcset="./images/batman-pequena.jpg" media="(max-width: 600px)">
+
+                    <img src="./images/batman.jpg" alt="Um filme do Batman">
+                </picture>
+                <p>27 de julho de 2012 No cinema | 2h 44min | Ação, Suspense</p>
+            </div>
+            <hr>
+            <br>
+
+            <h3>Assista ao Trailer</h3>
+            <div class="video">
+                <iframe width="1280" height="532" src="https://www.youtube.com/embed/0FzovwhaHsU"
+                    title="Batman: O Cavaleiro das Trevas Ressurge - Trailer Teaser (dublado) [HD]" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <br>
+            <h2>Homem-Aranha 2</h2><br>
+
+            <h3>Sinopse</h3>
+            <p>O Dr. Otto Octavius é transformado em Doutor Octopus quando uma falha em uma experiência de fusão nuclear
+                resulta em uma explosão que mata sua esposa. Ele culpa o Homem-Aranha pelo acidente e deseja vingança.
+                Enquanto isso, o alter ego do herói, Peter Parker, perde seus poderes. Para complicar as coisas, o seu
+                melhor amigo odeia o Homem-Aranha e sua amada fica noiva.</p>
+
+            <ul>
+                <li><span class="label">Diretor: <span class="nome">Sam Raimi</span></span></li>
+                <li>
+
+                <li><span class="label">Roteiro: <span class="nome">David Koepp, Alfred Gough</span></span></li>
+                <li>
+
+                <li><span class="label">Elenco: <span class="nome">Tobey Maguire, Kirsten Dunst, Alfred Molina, James Franco</span></li>
+                <li>
+            </ul>
+
+            <br>
+
+            <div class="image">
+                <picture>
+                    <source srcset="./images/homem-aranha-pequena.png" media="(max-width: 600px)">
+
+                    <img src="./images/homem-aranha.png" alt="Um filme do Homem-Aranha">
+                </picture>
+            </div>
+            <p> 2 de julho de 2004 No cinema | 2h 07min | Ação, Fantasia</p>
+
+            <hr>
+            <br>
+
+            <h3>Assista ao Trailer</h3>
+            <div class="video">
+                <iframe width="942" height="530" src="https://www.youtube.com/embed/1UAzz8ncM68"
+                    title="Homem-Aranha 2 [2004] Trailer Legendado PT-BR" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <br>
+
+            <div class="formulario">
+                <h2>Cadastre-se</h2>
+                <p>É fácil e rápido!</p>
+
+
+                <form method="GET">
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"><br>
+
+                    <input type="text" name="email" id="email" placeholder="Email">
+
+                    <input type="password" name="senha" id="senha" placeholder="Senha"><br><br>
+
+                    <label>Data de nascimento</label><br>
+                    <select name="dia" id="dia">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                    </select>
+                    <select name="mes" id="mes">
+                        <option value="jan">jan</option>
+                        <option value="fev">fev</option>
+                        <option value="mar">mar</option>
+                        <option value="abr">abr</option>
+                        <option value="mai">mai</option>
+                    </select>
+                    <select name="ano" id="ano">
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="genero">Gênero</label><br>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="masculino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="genero" id="feminino">
+                    <label for="personalizado">Personalizado</label>
+                    <input type="radio" name="genero" id="personalizado">
+
+                    <br>
+
+                    <input class="btn" type="submit" value="Cadastre-se">
+
+                </form>
+            </div>
+        </section>
+
+        <hr>
+    </main>
+</body>
+
+</html>

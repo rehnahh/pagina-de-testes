@@ -1,0 +1,105 @@
+html {
+    font-family: poppins;
+}
+
+body {
+    background-color: rgb(212, 212, 212);
+}
+
+.cabecalho {
+    background-color: rgb(8, 129, 249);
+    padding: 10px 5px;
+}
+
+.cabecalho .logo {
+    display: inline;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    max-width: 900px;
+    min-width: 295px;
+    margin: 0 auto;
+}
+
+main p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+main .info {
+    font-size: 16px;
+}
+
+.image img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+li:nth-child(n+1):nth-child(-n+3){ 
+    color: red;
+    }
+
+.label {
+    color: red;
+    font-weight: bold;
+}
+
+.nome {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    padding: 5px;
+    margin-top: 15px;
+    border: inset;
+}
+
+
+.formulario {
+    background-color: rgb(168, 184, 243);
+    padding: 20px;
+}
+
+@media (max-width: 575px){
+    .cabecalho {
+        text-align: center;
+
+    }
+
+    .cabecalho nav {
+        float: none;
+    }
+
+    .cabecalho nav li {
+        display: block;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    } 
+
+}
