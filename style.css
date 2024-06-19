@@ -9,6 +9,7 @@ body {
 .cabecalho {
     background-color: rgb(8, 129, 249);
     padding: 10px 5px;
+    border: initial;
 }
 
 .cabecalho .logo {
@@ -59,7 +60,6 @@ li:nth-child(n+1):nth-child(-n+3){
 
 .label {
     color: red;
-    font-weight: bold;
 }
 
 .nome {
@@ -77,10 +77,21 @@ a {
     border: inset;
 }
 
+.email {
+    display: inline-block;
+    width: 334px;
+}
+
+.senha {
+    display: inline-block;
+    width: 334px;
+}
+
 
 .formulario {
-    background-color: rgb(168, 184, 243);
+    background-color: rgb(153, 153, 153);
     padding: 20px;
+    border: inset;
 }
 
 @media (max-width: 575px){
