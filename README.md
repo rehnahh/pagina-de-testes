@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projeto Site Filmes Pessoal
 Bem-vindo ao meu site de filmes! Este é um projeto pessoal que desenvolvi para praticar minhas habilidades em HTML e CSS. 🚀
 
@@ -6,11 +7,6 @@ Bem-vindo ao meu site de filmes! Este é um projeto pessoal que desenvolvi para 
 ## Tecnologias utilizadas
 - HTML
 - CSS
-
-Clone para o projeto
-```
-git clone https://github.com/rehnahh/pagina-de-testes.git
-```
 
 ### O que eu aprendi com este projeto?
 
@@ -28,3 +24,4 @@ Uso das tags de posicionamento, uso das Pseudo-Classes, uso dos Pseudo-Elementos
 ````
 cd site-filmes-pessoal
 ````
+=======
