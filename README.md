@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Projeto Site Filmes Pessoal
 Bem-vindo ao meu site de filmes! Este é um projeto pessoal que desenvolvi para praticar minhas habilidades em HTML e CSS. 🚀
 
