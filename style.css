@@ -61,43 +61,40 @@ li {
     margin: 5px;
 }
 
-.nome {
-    color: black;
-}
 
-a {
-    text-decoration: none;
-    color: yellow;
-}
-
-.sobre::after {
+#sobre::after {
     content: url(icone-link.png);
     padding: 10px;
 }
 
-.btn {
+a[target=_blank]{
+    color: yellow;
+}
+
+a:not([target="_blank"]){
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+
+input[type=text], 
+input[type=password]
+{
+    display: inline-block;
+    width: 334px;
+}
+
+input[type=submit],
+input[type=radio]{
+    color: rgb(50, 50, 50);
     padding: 5px;
     margin-top: 15px;
-    border: inset;
 }
-
-.email {
-    display: inline-block;
-    width: 334px;
-}
-
-.senha {
-    display: inline-block;
-    width: 334px;
-}
-
 
 .formulario {
     background-color: rgb(153, 153, 153);
     padding: 20px;
     border: inset;
 }
-
 
 
 @media (max-width: 575px){
