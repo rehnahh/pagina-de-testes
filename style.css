@@ -54,6 +54,7 @@ li {
     list-style: none;
 }
 
+
 .label {
     color: red;
     font-weight: bold;
@@ -61,18 +62,22 @@ li {
     margin: 5px;
 }
 
+
 .logo::after {
     content: url(png-camera-cinema.png);
-}
-
-a[target=_blank]{
-    color: yellow;
+    /* --- PSEUDO-ELEMENTO --- */
 }
 
 a:not([target="_blank"]){
     text-decoration: none;
     color: rgb(105, 105, 105);
 }
+
+
+a[target=_blank]{
+    color: yellow;
+}
+
 
 input[type=text], 
 input[type=password]
@@ -128,5 +133,3 @@ input[type=radio]{
     } 
 
 }
-
-/* --------------------------------- */
