@@ -61,12 +61,6 @@ li {
     margin: 5px;
 }
 
-
-#sobre::after {
-    content: url(icone-link.png);
-    padding: 10px;
-}
-
 .logo::after {
     content: url(png-camera-cinema.png);
 }
