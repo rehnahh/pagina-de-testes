@@ -7,7 +7,7 @@ body {
 }
 
 .cabecalho {
-    background-color: rgb(8, 129, 249);
+    background-color: rgb(8, 36, 249);
     padding: 10px 5px;
     border: initial;
 }
@@ -97,11 +97,23 @@ input[type=radio]{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------- Mediaa Queries --------- */
+
 @media (max-width: 575px){
     .cabecalho {
         text-align: center;
-        
-
     }
 
     .cabecalho nav {
@@ -118,3 +130,5 @@ input[type=radio]{
     } 
 
 }
+
+/* --------------------------------- */
