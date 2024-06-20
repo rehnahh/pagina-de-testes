@@ -67,6 +67,10 @@ li {
     padding: 10px;
 }
 
+.logo::after {
+    content: url(png-camera-cinema.png);
+}
+
 a[target=_blank]{
     color: yellow;
 }
