@@ -9,7 +9,7 @@ Bem-vindo ao meu site de filmes! Este é um projeto pessoal que desenvolvi para 
 
 ## Descrição do projeto 📔
 
-Este é um projeto pessoaal criado para aprimorar minhas habilidades de programação e desenvolvimento web. 
+Este é um projeto pessoal criado para aprimorar minhas habilidades de programação e desenvolvimento web. 
 
 ### O que eu aprendi com este projeto? 🚩
 
@@ -56,5 +56,3 @@ Ainda não dominei os elementos de posicionamento, principalmente o display.
 ### Pontos a melhorar 🏗️
 
 Uso do elemento display, uso das Pseudo-Classes, uso dos Pseudo-Elementos, Escrita mais semântica.
-
-
